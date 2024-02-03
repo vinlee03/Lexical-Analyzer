@@ -7,6 +7,8 @@
 
 using namespace std;
 
+//study each line of this lexcial analyzer on monday to help start the compiler homework assignment. finish it on monday if you can
+
 map<string,string> Make_Regex_Map(){
     map<string,string> my_map {       
         { "\\;|\\{|\\}|\\(|\\)|\\,|\\#", "Special Symbol"},
